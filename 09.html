@@ -6,17 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div {
+        #t1 {
             width: 250px;
             height: 50px;
             background-color: darkgrey;
             padding: 50px;
             margin: 100px;
             overflow: scroll;
+            border: 7px double palegreen;
+            /* 두께(굵기) 선의 종류(solid dotted dashed double) 색상 */
+        }
+
+        #t2 {
+            width: 200px;
+            height: 200px;
+            margin-left: 50px;
+            margin-right: 50px;
+            /* margin: 0 50px 0 50px; */
+            padding-left: 0 20px 0 20px;
+            border: 7px dotted rgb(5, 145, 201);
         }
     </style>
 </head>
 <body>
-    <div>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document</div>
+    <div id="t1">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document</div>
+    <div id="t2">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document</div>
 </body>
 </html>
